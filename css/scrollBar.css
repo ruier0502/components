@@ -1,0 +1,31 @@
+.scroll-container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  background: #ddd;
+  display: inline-block;
+}
+.scroll-container .scroll-content {
+  position: relative;
+  margin-left: 20px;
+  top: 0px;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+}
+.scroll-container .scroll-bar {
+  position: absolute;
+  top: 0px;
+  height: 400px;
+  width: 10px;
+  background: #eee;
+}
+.scroll-container .scroll-bar .scroll-slider {
+  position: absolute;
+  top: 0px;
+  display: inline-block;
+  width: 10px;
+  background: #000;
+}
+/*# sourceMappingURL=scrollBar.css.map */

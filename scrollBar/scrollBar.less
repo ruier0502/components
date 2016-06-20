@@ -2,11 +2,18 @@
     position: relative;
     width: 300px;
     height: 400px;
-    margin: 100px auto;
+    // margin: 100px auto;
     overflow: hidden;
     background: #ddd;
+
+    display: inline-block;
     .scroll-content {
+        position: relative;
         margin-left: 20px;
+        top: 0px;
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
     }
     .scroll-bar {
         position: absolute;
@@ -15,6 +22,8 @@
         width: 10px;
         background: #eee;
         .scroll-slider {
+            position: absolute;
+            top: 0px;
             display: inline-block;
             width: 10px;
             background: #000;
